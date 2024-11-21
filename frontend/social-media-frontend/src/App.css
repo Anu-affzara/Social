@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f0f0f0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App {
+  text-align: center;
+  /* padding-top: 60px; To accommodate fixed navbar */
+}
+
+button {
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input:focus, textarea:focus {
+  border-color: #333;
+  outline: none;
+}
+
+/* Error Message Styles */
+div[role="alert"] {
+  color: red;
+  font-size: 0.875rem;
+}
